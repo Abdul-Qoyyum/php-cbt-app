@@ -1,0 +1,80 @@
+@media (min-width: 999px) {
+    #start-exam-menu {
+        margin-top: -70px;
+    }
+}
+
+#question-body {
+    height: 450px;
+    color: black;
+}
+
+.question-text-body{
+    font-size: 25px;
+}
+
+#question-buttons a {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+#question-buttons a:hover {
+    color: grey;
+}
+
+#timer {
+    float: right;
+}
+
+.qno-tab {
+    float: left;
+}
+
+.qno-tab ul{
+    max-height: 200px;
+    overflow: auto;
+}
+
+.qno-tab .dropdown-menu li a{
+    display: block;
+    text-align: center;
+}
+
+.qno-tab .dropdown-menu li a:hover{
+    text-decoration: none;
+    background-color: rgb(206, 206, 206);
+    color: white;
+}
+
+.selected-answers {
+    margin-top: 30px;
+}
+
+.selected-answers #answer-tab{
+    width: 30px;
+    background-color: dodgerblue; 
+}
+
+#complete-notification {
+    padding-top: 70px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 22em;
+    margin-top: -9em;
+    margin-left: -16em;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    line-height: 6em;
+}
+
+#complete-notification h4{
+    padding: 10px;
+    margin: auto;
+}
+
+#complete-submit-body, #footer-complete {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
